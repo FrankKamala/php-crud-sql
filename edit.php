@@ -25,16 +25,16 @@
 		<div class="card-text">
 			<!--
 			<div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-			<form>
+			<form action="finder.php" method="post">
 				<!-- to error: add class "has-danger" -->
 			
                 <div class="form-group">
 					<label for="enteredSName">Second Name</label>
-					<input type="text" class="form-control form-control-sm" id="enteredSName" aria-describedby="emailHelp">
+					<input type="text" name="registeredSecondName"class="form-control form-control-sm" id="enteredSName" aria-describedby="emailHelp">
 				</div>
                 <div class="form-group">
 					<label for="enteredEmail">Email address</label>
-					<input type="email" class="form-control form-control-sm" id="enteredEmail" aria-describedby="emailHelp">
+					<input type="email" name="registeredMail" class="form-control form-control-sm" id="enteredEmail" aria-describedby="emailHelp">
 				</div>
 			
 				<button type="submit" class="btn btn-primary btn-block"> Edit RSVP</button>
