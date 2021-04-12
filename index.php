@@ -62,7 +62,7 @@
           >
           <a
             class="btn btn-outline-light btn-lg m-2"
-            href="book.php"
+            href="available.php"
             target="_blank"
             role="button"
             >Upcoming Events</a
