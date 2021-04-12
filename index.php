@@ -1,78 +1,82 @@
-<?php
-include_once 'db.php';
 
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<header>
+  <!-- Intro settings -->
+  <style>
+    /* Default height for small devices */
+    #intro-example {
+      height: 400px;
+    }
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
+  </style>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <title>RSVP</title>
-</head>
-<body>
-<?php
-$sql = "SELECT * FROM attendants;";
-$result = mysqli_query($connection,$sql);
-$resultCheck = mysqli_num_rows($result);
-
-if($resultCheck>0){
-   while($row = mysqli_fetch_assoc($result)){
-echo $row['attendant_email']. "<br>";
-
-   }
-}
-
-?> 
-<div class="global-container">
-	<div class="card login-form">
-	<div class="card-body">
-		<h3 class="card-title text-center">Fill the Form to submit your reservation</h3>
-		<div class="card-text">
-			<!--
-			<div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-			<form action="create.php" method="post">
-				<!-- to error: add class "has-danger" -->
-				<div class="form-group">
-					<label for="enteredFName">First Name</label>
-					<input type="text"  name ="first_name"class="form-control form-control-sm" id="enteredFName" >
-				</div>
-                <div class="form-group">
-					<label for="enteredSName">Second Name</label>
-					<input type="text"  name="second_name"class="form-control form-control-sm" id="enteredSName">
-				</div>
-                <div class="form-group">
-					<label for="enteredEmail">Email address</label>
-					<input type="email" name="mail_address" class="form-control form-control-sm" id="enteredEmail" aria-describedby="emailHelp">
-				</div>
-				<div class="form-group">
-					<label for="enteredInterest">Interest</label>
-					<!-- <a href="#" style="float:right;font-size:12px;">Forgot password?</a> -->
-					<input type="text" name="interest_in" class="form-control form-control-sm" id="enteredInterest">
-				</div>
-				<button type="submit" class="btn btn-primary btn-block">RSVP</button>
-				
-				<div class="sign-up">
-					Edit Submitted Response? <a href="edit.php">Change Details</a>
-				</div>
-			</form>
-		</div>
-	</div>
+  <!-- Navbar -->
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RSVPs</a>
+    </div>
+  </nav>
 </div>
-</div>
+  <!-- Navbar -->
 
+  <!-- Background image -->
+  <div
+    id="intro-example"
+    class="p-5 text-center bg-image"
+    style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.jpg');"
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">RSVPS </h1>
+          <h5 class="mb-4">Making your event reservations smooth and simple</h5>
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="book.php"
+            role="button"
+            rel="nofollow"
+            target="_blank"
+            >RSVP NOW</a
+          >
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="book.php"
+            target="_blank"
+            role="button"
+            >Upcoming Events</a
+          >
+		  <!--  -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
 
-
-    
-</body>
-</html>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+></script>
