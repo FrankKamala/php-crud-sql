@@ -74,6 +74,7 @@
   </div>
   <!-- Background image -->
 </header>
+<?php include 'footer.php';?>
 
 <!-- MDB -->
 <script
