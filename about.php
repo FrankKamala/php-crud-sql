@@ -31,7 +31,7 @@
     <div class="container ">
     <!-- style="background-color:grey;" -->
 
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="index.php">Home</a>
     </div>
     <div class="container">
       <a class="navbar-brand" href="about.php">About Us</a>
