@@ -93,7 +93,7 @@
           <h5 class="mb-4">Making your event reservations smooth and simple</h5>
           <a
             class="btn btn-outline-light btn-lg m-2"
-            href="book.php"
+            href="login.php"
             role="button"
             rel="nofollow"
             target="_blank"
@@ -101,7 +101,7 @@
           >
           <a
             class="btn btn-outline-light btn-lg m-2"
-            href="available.php"
+            href="login.php"
             target="_blank"
             role="button"
             >Upcoming Events</a
