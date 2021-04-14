@@ -1,10 +1,19 @@
 
-
+<?php  
+session_start();  
+  
+if(!$_SESSION['username'])  
+{  
+  
+    header("Location: login.php");//redirect to login page to secure the welcome page without login access.  
+}  
+  
+?> 
 
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'navbar.php';
+<?php 
 include 'db.php';?>
 <head>
   <meta charset="UTF-8">
@@ -12,9 +21,18 @@ include 'db.php';?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Available Events</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="style.css"  rel="stylesheet">
 </head>
-<body >
+<?php
+include 'navbar.php';?>
+<body>
+  <br>
+<h5>Welcome, <span><?php  
+echo strtoupper($_SESSION['username']);  
+?> </span></h5><br>  
+
+
+<div class="container-fluid bg-primary">
 
 <div class="row ">
 <?php
@@ -55,6 +73,8 @@ include 'db.php';?>
   <br>
   
 </div>
+</div>
+
   
 </body>
 </html>
