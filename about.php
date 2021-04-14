@@ -33,9 +33,9 @@
           
           <h3 class="font-weight-bold mb-4">About US</h3>
 
-        	<p>Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.</p>
+        	<p>At RSVPs we believe that good reviews from meetup attendees begins from the ease of Reservation for that event. RSVPs provides a platform just for that where you can simply view all available events and book your reservations</p>
 
-        	<button type="button" class="btn btn-orange btn-rounded mx-0">Download</button>
+        	<button type="button" class="btn btn-orange btn-rounded mx-0">Try it out</button>
 
         </div>
       </div>
