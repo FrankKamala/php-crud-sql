@@ -47,8 +47,11 @@
       
     </div>
     <!-- Item -->
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">RSVPs</a>
+    <div class="container">
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <div class="container">
+      <a class="navbar-brand" href="#">About Us</a>
     </div>
 
     <!-- icon -->
@@ -66,8 +69,8 @@
           <i class="fas fa-user"></i>
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Login</a></li>
-          <li><a class="dropdown-item" href="#">Resister</a></li>
+          <li><a class="dropdown-item" href="login.php">Login</a></li>
+          <li><a class="dropdown-item" href="register.php">Register</a></li>
           <li><hr class="dropdown-divider" /></li>
           
         </ul>
