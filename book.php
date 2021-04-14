@@ -22,6 +22,9 @@ include_once 'db.php';
 </head>
 <body>
 <?php
+include 'navbar.php';
+?>
+<?php
 $sql = "SELECT * FROM attendants;";
 $result = mysqli_query($connection,$sql);
 $resultCheck = mysqli_num_rows($result);
