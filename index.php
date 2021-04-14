@@ -25,7 +25,7 @@
     /* Height for devices larger than 992px */
     @media (min-width: 992px) {
       #intro-example {
-        height: 550px;
+        height: 650px;
       }
     }
   </style>
