@@ -54,7 +54,7 @@
   <section class="text-center">
 
     <!-- Section heading -->
-    <h3 class="font-weight-bold mb-5">Recent Blog Posts</h3>
+    <h3 class="font-weight-bold mb-5">Recent Events</h3>
 
   	<!-- Grid row -->
     <div class="row">
@@ -72,7 +72,7 @@
           <div class="card-body">
 
             <!-- Title -->
-            <p class="card-title text-muted text-uppercase font-small mt-1 mb-3">News</p>
+            <p class="card-title text-muted text-uppercase font-small mt-1 mb-3">Poerty</p>
             <!-- Text -->
             <p class="mb-2">We relocated our office to a new designed garage</p>
 
@@ -91,7 +91,7 @@
         <div class="card hoverable">
 
           <!-- Card image -->
-          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/mark.jpg" alt="Card image cap">
 
           <!-- Card content -->
           <div class="card-body">
@@ -116,7 +116,7 @@
         <div class="card hoverable">
 
           <!-- Card image -->
-          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/ui.jpg" alt="Card image cap">
 
           <!-- Card content -->
           <div class="card-body">
@@ -142,6 +142,11 @@
 
 
 </div>
+
+<br>
+<br>
+
+
 <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"

@@ -35,7 +35,7 @@
       <a class="navbar-brand" href="#">Home</a>
     </div>
     <div class="container">
-      <a class="navbar-brand" href="#">About Us</a>
+      <a class="navbar-brand" href="about.php">About Us</a>
     </div>
 
     <!-- icon -->
