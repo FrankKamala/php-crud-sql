@@ -49,6 +49,14 @@ include 'navbar.php';
 	</div>
 </div>
 </div>
+<?php
+
+echo '<div class="alert alert-primary" role="alert">
+    This is a primary alert—check it out!
+  </div>';
+
+?>
+
 
     
 </body>
