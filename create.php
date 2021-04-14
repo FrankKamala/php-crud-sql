@@ -31,7 +31,7 @@ $attendant_interest = mysqli_real_escape_string($connection, $_REQUEST['interest
 // Attempt insert query execution
 $sql = "INSERT INTO attendants (attendant_firstName, attendant_secondName, attendant_email, attendant_interest) VALUES ('$attendant_firstName', '$attendant_secondName', '$attendant_email', '$attendant_interest');";
 if(mysqli_query($connection, $sql)){
-    header("Location: edit.php");
+    header("Location: success.php");
    
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($connection);
