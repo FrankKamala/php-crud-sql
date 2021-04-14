@@ -24,19 +24,8 @@ include_once 'db.php';
 <?php
 include 'navbar.php';
 ?>
-<?php
-$sql = "SELECT * FROM attendants;";
-$result = mysqli_query($connection,$sql);
-$resultCheck = mysqli_num_rows($result);
 
-if($resultCheck>0){
-   while($row = mysqli_fetch_assoc($result)){
-echo $row['attendant_email']. "<br>";
-
-   }
-}
-
-?> 
+<!--  -->
 <div class="global-container">
 	<div class="card login-form">
 	<div class="card-body">
