@@ -113,7 +113,7 @@
   </div>
   <!-- Background image -->
 </header>
-<?php include 'footer.php';?>
+<?php include 'inc/footer.php';?>
 
 <!-- MDB -->
 <script

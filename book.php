@@ -1,6 +1,6 @@
 <?php
 include_once 'db.php';
-include 'navbar.php';
+include 'inc/navbar.php';
 ?>
 
 <!DOCTYPE html>

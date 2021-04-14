@@ -1,80 +1,86 @@
-<footer id="footer" style="margin-top:10px;"><!--Footer-->
-		
-		
-		<div class="footer-widget">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6 col-lg-3">
-						<div class="single-widget">
-							<h2>Service</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li class="dummy"><a href="javascript:void(0)">Terms of Use</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Contact Us</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Privecy Policy</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Refund Policy</a></li>
-								<li class="dummy"><a href="javascript:void(0)">FAQ</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-3">
-						<div class="single-widget">
-							<h2>Quick Shop</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li class="dummy"><a href="javascript:void(0)">T-Shirt</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Mens</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Womens</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Gift Cards</a></li>
-								<li class="dummy"><a href="javascript:void(0)">Shoes</a></li>
-							</ul>
-						</div>
-					</div>
-					
-					
-					<div class="col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-2">
-						<div class="single-widget">
-							<h2>Subscribe our Newsletter</h2>
-							<form action="#" class="searchform">
-								<input type="text" placeholder="Your email address" / disabled>
-								<a href="javascript:void(0)" class="dummy"><button type="button"><i class="fa fa-arrow-circle-o-right"></i></button></a>
-								<p>Get the most recent updates from our site</p>
-							</form>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="row">
-					<p class="pull-left">Copyright © 2021 Dukani Inc. All rights reserved.</p>
-				</div>
-			</div>
-		</div>
-		
-	</footer><!--/Footer-->
-	
+<!-- Footer -->
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
 
-  
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.scrollUp.min.js"></script>
-	<script src="js/price-range.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
-<script>
-$(".dummy").on("click",function(){
-	notif({
-				        msg:'Dummy Link',
-						type:'warning',
-						width:330,
-						height:40,
-						timeout:2000,
-						
-					})
-});
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
 
-</script>
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-dark" href="#">RSVPs</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->

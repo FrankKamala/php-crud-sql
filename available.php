@@ -24,7 +24,7 @@ include 'db.php';?>
   <link href="style.css"  rel="stylesheet">
 </head>
 <?php
-include 'navbar.php';?>
+include 'inc/navbar.php';?>
 <body>
   <br>
 <h5>Welcome, <span><?php  
